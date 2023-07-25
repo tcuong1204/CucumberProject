@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f522a627-bde8-4227-8f2f-81da015a6fba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/framework/java/tma/sharing/PageObjects/LoginPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/framework/java/tma/sharing/Utils/BrowserHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/framework/java/tma/sharing/Utils/ElementHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/framework/java/tma/sharing/Utils/PropertiesHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/framework/java/tma/sharing/Utils/ScenarioHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tma/sharing/StepDefs/LoginStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/FrameworkArchitecture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/credential.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/ltcuong/IdeaProjects/Sharing/CucumberProject/src/test/java/tma/sharing/StepDefs",
+    "last_opened_file_path": "D:/Java Projects/CucumberProject",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"

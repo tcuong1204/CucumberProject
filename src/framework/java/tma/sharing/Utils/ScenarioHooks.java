@@ -1,7 +1,6 @@
 package tma.sharing.Utils;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
+import io.cucumber.java.*;
 
 public class ScenarioHooks {
 
@@ -15,6 +14,14 @@ public class ScenarioHooks {
     @After
     public void cleanup() {
         browserHandler.closeBrowser();
+    }
+
+    @AfterAll
+    public static void generateReport() {
+
+        Runtime runtime = Runtime.getRuntime();
+        runtime.addShutdownHook(new Thread(ReportHandler::customReport));
+        System.out.println("Generating report");
     }
 
 }

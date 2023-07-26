@@ -47,3 +47,7 @@ So that why's we needing to create object file for reuse
    Properties properties = PropertiesHandler.loadCredentialProperties();\
    String username = properties.getProperty("username");\
    String password = properties.getProperty("password");\
+
+## Cucumber reporting
+1. Add dependency
+2. Usage: https://github.com/damianszczepanik/cucumber-reporting

@@ -10,6 +10,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Properties;
 
 public class ReportHandler {
 
@@ -19,8 +20,12 @@ public class ReportHandler {
         List<String> jsonFiles = new ArrayList<>();
         jsonFiles.add("target/login.json");
 
-        String buildNumber = "1";
+        Properties properties = PropertiesHandler.loadApplicationProperties();
+
+        String buildNumber = "2";
         String projectName = "Cucumber Project";
+        String platform = System.getProperty("os.name");
+        String browser = properties.getProperty("browser.default").toUpperCase();
 
         Configuration configuration = new Configuration(reportOutputDirectory, projectName);
 
@@ -33,9 +38,9 @@ public class ReportHandler {
         configuration.setBuildNumber(buildNumber);
 
         // Additional metadata presented on main page
-        configuration.addClassifications("Platform", "Windows");
-        configuration.addClassifications("Browser", "Chrome");
-        configuration.addClassifications("Branch", "release/1.0");
+        configuration.addClassifications("Platform", platform);
+        configuration.addClassifications("Browser", browser);
+        configuration.addClassifications("Branch", "master");
 
         // optionally add metadata presented on main page via properties file
 //        List<String> classificationFiles = new ArrayList<>();

@@ -3,6 +3,7 @@
 
   Feature: User login
 
+    @Regression1
     Scenario: User is able to login with valid credentials
 
       Given User enters a valid username in the username input
@@ -10,6 +11,7 @@
       When User clicks on login button
       Then User is logged successfully
 
+    @Regression2
     Scenario Outline: User is not able to login with invalid credentials
 
       Given User enters an invalid <username> in the username input
